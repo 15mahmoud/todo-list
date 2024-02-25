@@ -1,0 +1,52 @@
+body {
+    background-color:cadetblue;
+}
+.App {
+    border: 1px  solid #fff;
+    margin: 100px  30%;
+    padding: 50px;
+    text-align: center;
+    border-radius: 25px;
+}
+.App h2 {
+    color: #fff;
+}
+.App ul {
+    list-style: "🤔";
+    cursor: pointer;
+    font-size: 22px ;
+    color: #fff;
+    margin: 20px;
+}
+.App input {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.App button {
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 30px;
+    background-color:blue;
+    color: #fff;
+    border-radius: 5px;
+    border: 0;
+}
+
+.App ul li {
+    /* word-wrap: break-word; */
+    overflow-wrap: break-word;
+    line-height: 45px;
+}
+
+.diffstyle {
+    list-style: "✔️";
+    color:blue;
+}
+.div10 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
